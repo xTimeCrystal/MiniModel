@@ -1,4 +1,4 @@
-Will update with a more comprehensive readme.md later.
+Will update with a more comprehensive readme.md after the models are done training
 
 Requirements:
 ```
