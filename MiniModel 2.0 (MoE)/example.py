@@ -23,7 +23,7 @@ inductor_config.fx_graph_cache = True
 
 os.environ["TRITON_CACHE_DIR"] = "~/.triton/cache"
 
-from .data_utils import load_parquet, load_packed_parquet
+from .data_utils import load_parquet
 from .fast_optim  import AdaMuon
 from .fast_self_attn_model import Transformer as Model
 from liger_kernel.transformers import LigerFusedLinearCrossEntropyLoss
